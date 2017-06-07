@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06F077BA1EE6AB4A00BC9D4B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F077B91EE6AB4A00BC9D4B /* AppDelegate.m */; };
+		06F077BD1EE6AB4A00BC9D4B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F077BC1EE6AB4A00BC9D4B /* main.m */; };
+		06F077C01EE6AB4A00BC9D4B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F077BF1EE6AB4A00BC9D4B /* ViewController.m */; };
+		06F077C21EE6AB4B00BC9D4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06F077C11EE6AB4B00BC9D4B /* Assets.xcassets */; };
+		06F077C51EE6AB4B00BC9D4B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06F077C31EE6AB4B00BC9D4B /* Main.storyboard */; };
+		06F077D01EE6AB4B00BC9D4B /* QRCodeGeneratedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F077CF1EE6AB4B00BC9D4B /* QRCodeGeneratedTests.m */; };
+		06F077DB1EE6AB4B00BC9D4B /* QRCodeGeneratedUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F077DA1EE6AB4B00BC9D4B /* QRCodeGeneratedUITests.m */; };
+		06F077EA1EE6AB9200BC9D4B /* QRCode.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F077E91EE6AB9200BC9D4B /* QRCode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06F077CC1EE6AB4B00BC9D4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06F077AD1EE6AB4A00BC9D4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06F077B41EE6AB4A00BC9D4B;
+			remoteInfo = QRCodeGenerated;
+		};
+		06F077D71EE6AB4B00BC9D4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06F077AD1EE6AB4A00BC9D4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06F077B41EE6AB4A00BC9D4B;
+			remoteInfo = QRCodeGenerated;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06F077B51EE6AB4A00BC9D4B /* QRCodeGenerated.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QRCodeGenerated.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06F077B81EE6AB4A00BC9D4B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		06F077B91EE6AB4A00BC9D4B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		06F077BC1EE6AB4A00BC9D4B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06F077BE1EE6AB4A00BC9D4B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		06F077BF1EE6AB4A00BC9D4B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		06F077C11EE6AB4B00BC9D4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06F077C41EE6AB4B00BC9D4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06F077C61EE6AB4B00BC9D4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06F077CB1EE6AB4B00BC9D4B /* QRCodeGeneratedTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRCodeGeneratedTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06F077CF1EE6AB4B00BC9D4B /* QRCodeGeneratedTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCodeGeneratedTests.m; sourceTree = "<group>"; };
+		06F077D11EE6AB4B00BC9D4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06F077D61EE6AB4B00BC9D4B /* QRCodeGeneratedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QRCodeGeneratedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06F077DA1EE6AB4B00BC9D4B /* QRCodeGeneratedUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QRCodeGeneratedUITests.m; sourceTree = "<group>"; };
+		06F077DC1EE6AB4B00BC9D4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06F077E81EE6AB9200BC9D4B /* QRCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCode.h; sourceTree = "<group>"; };
+		06F077E91EE6AB9200BC9D4B /* QRCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCode.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06F077B21EE6AB4A00BC9D4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06F077C81EE6AB4B00BC9D4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06F077D31EE6AB4B00BC9D4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06F077AC1EE6AB4A00BC9D4B = {
+			isa = PBXGroup;
+			children = (
+				06F077B71EE6AB4A00BC9D4B /* QRCodeGenerated */,
+				06F077CE1EE6AB4B00BC9D4B /* QRCodeGeneratedTests */,
+				06F077D91EE6AB4B00BC9D4B /* QRCodeGeneratedUITests */,
+				06F077B61EE6AB4A00BC9D4B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06F077B61EE6AB4A00BC9D4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06F077B51EE6AB4A00BC9D4B /* QRCodeGenerated.app */,
+				06F077CB1EE6AB4B00BC9D4B /* QRCodeGeneratedTests.xctest */,
+				06F077D61EE6AB4B00BC9D4B /* QRCodeGeneratedUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06F077B71EE6AB4A00BC9D4B /* QRCodeGenerated */ = {
+			isa = PBXGroup;
+			children = (
+				06F077B81EE6AB4A00BC9D4B /* AppDelegate.h */,
+				06F077B91EE6AB4A00BC9D4B /* AppDelegate.m */,
+				06F077BE1EE6AB4A00BC9D4B /* ViewController.h */,
+				06F077BF1EE6AB4A00BC9D4B /* ViewController.m */,
+				06F077E81EE6AB9200BC9D4B /* QRCode.h */,
+				06F077E91EE6AB9200BC9D4B /* QRCode.m */,
+				06F077C11EE6AB4B00BC9D4B /* Assets.xcassets */,
+				06F077C31EE6AB4B00BC9D4B /* Main.storyboard */,
+				06F077C61EE6AB4B00BC9D4B /* Info.plist */,
+				06F077BB1EE6AB4A00BC9D4B /* Supporting Files */,
+			);
+			path = QRCodeGenerated;
+			sourceTree = "<group>";
+		};
+		06F077BB1EE6AB4A00BC9D4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06F077BC1EE6AB4A00BC9D4B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		06F077CE1EE6AB4B00BC9D4B /* QRCodeGeneratedTests */ = {
+			isa = PBXGroup;
+			children = (
+				06F077CF1EE6AB4B00BC9D4B /* QRCodeGeneratedTests.m */,
+				06F077D11EE6AB4B00BC9D4B /* Info.plist */,
+			);
+			path = QRCodeGeneratedTests;
+			sourceTree = "<group>";
+		};
+		06F077D91EE6AB4B00BC9D4B /* QRCodeGeneratedUITests */ = {
+			isa = PBXGroup;
+			children = (
+				06F077DA1EE6AB4B00BC9D4B /* QRCodeGeneratedUITests.m */,
+				06F077DC1EE6AB4B00BC9D4B /* Info.plist */,
+			);
+			path = QRCodeGeneratedUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06F077B41EE6AB4A00BC9D4B /* QRCodeGenerated */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06F077DF1EE6AB4B00BC9D4B /* Build configuration list for PBXNativeTarget "QRCodeGenerated" */;
+			buildPhases = (
+				06F077B11EE6AB4A00BC9D4B /* Sources */,
+				06F077B21EE6AB4A00BC9D4B /* Frameworks */,
+				06F077B31EE6AB4A00BC9D4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QRCodeGenerated;
+			productName = QRCodeGenerated;
+			productReference = 06F077B51EE6AB4A00BC9D4B /* QRCodeGenerated.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06F077CA1EE6AB4B00BC9D4B /* QRCodeGeneratedTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06F077E21EE6AB4B00BC9D4B /* Build configuration list for PBXNativeTarget "QRCodeGeneratedTests" */;
+			buildPhases = (
+				06F077C71EE6AB4B00BC9D4B /* Sources */,
+				06F077C81EE6AB4B00BC9D4B /* Frameworks */,
+				06F077C91EE6AB4B00BC9D4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06F077CD1EE6AB4B00BC9D4B /* PBXTargetDependency */,
+			);
+			name = QRCodeGeneratedTests;
+			productName = QRCodeGeneratedTests;
+			productReference = 06F077CB1EE6AB4B00BC9D4B /* QRCodeGeneratedTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		06F077D51EE6AB4B00BC9D4B /* QRCodeGeneratedUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06F077E51EE6AB4B00BC9D4B /* Build configuration list for PBXNativeTarget "QRCodeGeneratedUITests" */;
+			buildPhases = (
+				06F077D21EE6AB4B00BC9D4B /* Sources */,
+				06F077D31EE6AB4B00BC9D4B /* Frameworks */,
+				06F077D41EE6AB4B00BC9D4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06F077D81EE6AB4B00BC9D4B /* PBXTargetDependency */,
+			);
+			name = QRCodeGeneratedUITests;
+			productName = QRCodeGeneratedUITests;
+			productReference = 06F077D61EE6AB4B00BC9D4B /* QRCodeGeneratedUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06F077AD1EE6AB4A00BC9D4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Avcon;
+				TargetAttributes = {
+					06F077B41EE6AB4A00BC9D4B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3YB54BC6QT;
+						ProvisioningStyle = Automatic;
+					};
+					06F077CA1EE6AB4B00BC9D4B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3YB54BC6QT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 06F077B41EE6AB4A00BC9D4B;
+					};
+					06F077D51EE6AB4B00BC9D4B = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 3YB54BC6QT;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 06F077B41EE6AB4A00BC9D4B;
+					};
+				};
+			};
+			buildConfigurationList = 06F077B01EE6AB4A00BC9D4B /* Build configuration list for PBXProject "QRCodeGenerated" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06F077AC1EE6AB4A00BC9D4B;
+			productRefGroup = 06F077B61EE6AB4A00BC9D4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06F077B41EE6AB4A00BC9D4B /* QRCodeGenerated */,
+				06F077CA1EE6AB4B00BC9D4B /* QRCodeGeneratedTests */,
+				06F077D51EE6AB4B00BC9D4B /* QRCodeGeneratedUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06F077B31EE6AB4A00BC9D4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06F077C21EE6AB4B00BC9D4B /* Assets.xcassets in Resources */,
+				06F077C51EE6AB4B00BC9D4B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06F077C91EE6AB4B00BC9D4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06F077D41EE6AB4B00BC9D4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06F077B11EE6AB4A00BC9D4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06F077EA1EE6AB9200BC9D4B /* QRCode.m in Sources */,
+				06F077C01EE6AB4A00BC9D4B /* ViewController.m in Sources */,
+				06F077BD1EE6AB4A00BC9D4B /* main.m in Sources */,
+				06F077BA1EE6AB4A00BC9D4B /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06F077C71EE6AB4B00BC9D4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06F077D01EE6AB4B00BC9D4B /* QRCodeGeneratedTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06F077D21EE6AB4B00BC9D4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06F077DB1EE6AB4B00BC9D4B /* QRCodeGeneratedUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06F077CD1EE6AB4B00BC9D4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06F077B41EE6AB4A00BC9D4B /* QRCodeGenerated */;
+			targetProxy = 06F077CC1EE6AB4B00BC9D4B /* PBXContainerItemProxy */;
+		};
+		06F077D81EE6AB4B00BC9D4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06F077B41EE6AB4A00BC9D4B /* QRCodeGenerated */;
+			targetProxy = 06F077D71EE6AB4B00BC9D4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06F077C31EE6AB4B00BC9D4B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06F077C41EE6AB4B00BC9D4B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06F077DD1EE6AB4B00BC9D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		06F077DE1EE6AB4B00BC9D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		06F077E01EE6AB4B00BC9D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3YB54BC6QT;
+				INFOPLIST_FILE = QRCodeGenerated/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = avcon.QRCodeGenerated;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		06F077E11EE6AB4B00BC9D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3YB54BC6QT;
+				INFOPLIST_FILE = QRCodeGenerated/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = avcon.QRCodeGenerated;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		06F077E31EE6AB4B00BC9D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3YB54BC6QT;
+				INFOPLIST_FILE = QRCodeGeneratedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = avcon.QRCodeGeneratedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRCodeGenerated.app/Contents/MacOS/QRCodeGenerated";
+			};
+			name = Debug;
+		};
+		06F077E41EE6AB4B00BC9D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3YB54BC6QT;
+				INFOPLIST_FILE = QRCodeGeneratedTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = avcon.QRCodeGeneratedTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QRCodeGenerated.app/Contents/MacOS/QRCodeGenerated";
+			};
+			name = Release;
+		};
+		06F077E61EE6AB4B00BC9D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3YB54BC6QT;
+				INFOPLIST_FILE = QRCodeGeneratedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = avcon.QRCodeGeneratedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QRCodeGenerated;
+			};
+			name = Debug;
+		};
+		06F077E71EE6AB4B00BC9D4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 3YB54BC6QT;
+				INFOPLIST_FILE = QRCodeGeneratedUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = avcon.QRCodeGeneratedUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QRCodeGenerated;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06F077B01EE6AB4A00BC9D4B /* Build configuration list for PBXProject "QRCodeGenerated" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06F077DD1EE6AB4B00BC9D4B /* Debug */,
+				06F077DE1EE6AB4B00BC9D4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06F077DF1EE6AB4B00BC9D4B /* Build configuration list for PBXNativeTarget "QRCodeGenerated" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06F077E01EE6AB4B00BC9D4B /* Debug */,
+				06F077E11EE6AB4B00BC9D4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		06F077E21EE6AB4B00BC9D4B /* Build configuration list for PBXNativeTarget "QRCodeGeneratedTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06F077E31EE6AB4B00BC9D4B /* Debug */,
+				06F077E41EE6AB4B00BC9D4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		06F077E51EE6AB4B00BC9D4B /* Build configuration list for PBXNativeTarget "QRCodeGeneratedUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06F077E61EE6AB4B00BC9D4B /* Debug */,
+				06F077E71EE6AB4B00BC9D4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06F077AD1EE6AB4A00BC9D4B /* Project object */;
+}
